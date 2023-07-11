@@ -13,21 +13,16 @@ public class Main {
         }
 
         public double product(double x, double y) {
-            return 0;
+            return 0.00;
         }
 
     }
-
-
     public static void main(String[] args) {
 
         Product p = new Product();
-
-        //calling the methods
         p.product(1,2);
         p.product(1,2,3);
         p.product(1,2);
-
 
     }
 }

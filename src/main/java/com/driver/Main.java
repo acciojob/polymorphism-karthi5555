@@ -1,7 +1,7 @@
 package com.driver;
 
 public class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Product p = new Product();
 
         // Task 3: Calling the method with two integer parameters
@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Result 3: " + result3);
     }
 
-    public class Product {
+    public static class Product {
         // Task 3: Method with two integer parameters
         public int product(int x, int y) {
             return x * y;
